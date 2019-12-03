@@ -1,2 +1,6 @@
 include LICENSE
-include requirements/requirements.in
+
+include *requirements.txt
+
+graft requirements
+graft tests
